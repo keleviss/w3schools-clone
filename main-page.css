@@ -109,7 +109,7 @@ h3 {
 }
 
 hr {
-    color: rgb(57, 68, 78);
+    color: rgb(57, 68, 78)!important;
     /* border-width: 1px; */
 }
 
@@ -167,7 +167,7 @@ code {
 }
 
 .intext-light {
-    background-color: rgba(222,222,222,0.3);
+    background-color: rgba(222,222,222,0.7);
 }
 
 .example-container {
