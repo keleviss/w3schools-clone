@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let leftSection = document.getElementById('left-section');
   let rightSection = document.getElementById('right-section');
   let code = document.querySelectorAll('.code-text');
+  let codeContainer = document.querySelectorAll('.code-container');
 
   // Event listener for changing the theme to dark
   darkMode.addEventListener("click", function() {
@@ -35,7 +36,12 @@ document.addEventListener("DOMContentLoaded", function () {
     code.forEach((lmt) => {
       lmt.classList.add('intext-dark');
       lmt.classList.remove('intext-light');
-    })
+    });
+
+    codeContainer.forEach((lmt) => {
+      lmt.classList.add('code-container');
+      lmt.classList.remove('code-container-light');
+    });
 
     darkMode.style.display = 'none';
     lightMode.style.display = 'inline';
@@ -65,7 +71,12 @@ document.addEventListener("DOMContentLoaded", function () {
     code.forEach((lmt) => {
       lmt.classList.add('intext-light');
       lmt.classList.remove('intext-dark');
-    })
+    });
+
+    codeContainer.forEach((lmt) => {
+      lmt.classList.add('code-container-light');
+      lmt.classList.remove('code-container');
+    });
 
     darkMode.style.display = 'inline';
     lightMode.style.display = 'none';
