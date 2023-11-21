@@ -142,17 +142,17 @@ nav {
   user-select: none;
 }
 
-#theme {
+.theme {
   margin: 15px;
   padding: 10px; 
   border-radius: 30px;
 }
 
-#theme:hover {
+.theme:hover {
   background-color: #8080802a;
 }
 
-#theme:active {
+.theme:active {
   background-color: #7a7a7a7a;
 }
 

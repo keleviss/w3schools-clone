@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     darkMode.style.display = 'none';
-    lightMode.style.display = 'inline';
+    lightMode.style.display = 'flex';
   });
 
   // Event listener for changing the theme to white
@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
       lmt.classList.remove('code-container');
     });
 
-    darkMode.style.display = 'inline';
+    darkMode.style.display = 'flex';
     lightMode.style.display = 'none';
   });
 
