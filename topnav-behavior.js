@@ -6,11 +6,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Get top_nav element
   let topNav = document.getElementById('top_nav');
-  let main = document.getElementById('main');
-  let leftSection = document.getElementById('left-section');
-  let rightSection = document.getElementById('right-section');
-  let code = document.querySelectorAll('.code-text');
-  let codeContainer = document.querySelectorAll('.code-container');
+  let main = document.body;
+  // let leftSection = document.getElementById('left-section');
+  // let rightSection = document.getElementById('right-section');
+  // let code = document.querySelectorAll('.code-text');
+  // let codeContainer = document.querySelectorAll('.code-container');
 
   // Event listener for changing the theme to dark
   darkMode.addEventListener("click", function() {
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
     main.style.backgroundColor = "#1d2a35";
     main.style.color = "azure";
 
-    // Right section colors
+    /* // Right section colors
     rightSection.style.backgroundColor = "#1d2a35";
     rightSection.style.color = "azure";
     
@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
     codeContainer.forEach((lmt) => {
       lmt.classList.add('code-container');
       lmt.classList.remove('code-container-light');
-    });
+    }); */
 
     darkMode.style.display = 'none';
     lightMode.style.display = 'flex';
@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
     main.style.backgroundColor = "white";
     main.style.color = "black";
 
-    // Left section colors
+    /* // Left section colors
     leftSection.classList.add('light-left');
     leftSection.classList.remove('dark-left');
 
@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function () {
     codeContainer.forEach((lmt) => {
       lmt.classList.add('code-container-light');
       lmt.classList.remove('code-container');
-    });
+    }); */
 
     darkMode.style.display = 'flex';
     lightMode.style.display = 'none';
