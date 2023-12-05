@@ -15,6 +15,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 3;
 }
 
 #sub-nav-fixed {
@@ -22,6 +23,7 @@ body {
   top: 55px;
   left: 0px;
   width: 100%;
+  z-index: 2;
 }
 
 .topnav {
@@ -59,7 +61,8 @@ nav {
   cursor: pointer;
   border-radius: 30px;
   user-select: none;
-  text-wrap: nowrap;
+  white-space: nowrap;
+  letter-spacing: 0.1px;
 }
 
 .nav_item .dropdown_div {
@@ -308,7 +311,7 @@ nav {
 
 .subtopnav {
   position: relative;
-  height: 35px;
+  height: 30px;
   width: 100%;
 }
 
@@ -323,9 +326,10 @@ nav {
 .suboptions > a {
   padding: 5px 20px;
   text-decoration: none;
-  text-wrap: nowrap;
+  white-space: nowrap;
   font-size: 15px;
   color: whitesmoke;
+  letter-spacing: 1px;
 }
 
 .suboptions > a:hover {

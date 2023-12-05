@@ -1,0 +1,14 @@
+#main-container {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+#learn-to-code {
+    position: relative;
+    top: 85px;
+    left: 0;
+    height: 500px;
+    background-color: #282A35;
+}
+
