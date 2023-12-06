@@ -1,278 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Tutorial</title>
-    <link rel="stylesheet" href="navbars.css">
-    <link rel="stylesheet" href="main-page.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Tutorial</title>
+  <link rel="stylesheet" href="navbars.css">
+  <link rel="stylesheet" href="main-page.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
+
 <body>
-    <div id="top-nav-fixed">
-        <div id="top_nav" class="topnav">
-            <div id="left-col" class="topcol">
-                <a href="https://www.w3schools.com/" id="top-nav-logo" title="Home">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/W3Schools_logo.svg" alt="W3Schools_logo" style="width: 40px; margin-left: 10px; margin-top: 5px;">
-                </a>
-                <nav style="padding: 0px 10px;">
-                    <div id="tutorials" class="nav_item menu-option">
-                        <div class="address_text">
-                            <span>Tutorials</span>
-                        </div>
-                        <div class="dropdown_div">
-                            <span class="material-icons dropdown_icon">arrow_drop_down</span>
-                        </div>
-                    </div>
-                    <div id="exercises" class="nav_item menu-option">
-                        <div class="address_text">
-                            <span>Exercises</span>
-                        </div>
-                        <div class="dropdown_div">
-                            <span class="material-icons dropdown_icon">arrow_drop_down</span>
-                        </div>
-                    </div>
-                    <div id="certificates" class="nav_item menu-option">
-                        <div class="address_text">
-                            <span>Certificates</span>
-                        </div>
-                        <div class="dropdown_div">
-                            <span class="material-icons dropdown_icon">arrow_drop_down</span>
-                        </div>
-                    </div>
-                    <div id="services" class="nav_item menu-option">
-                        <div class="address_text">
-                            <span>Services</span>
-                        </div>
-                        <div class="dropdown_div">
-                            <span class="material-icons dropdown_icon">arrow_drop_down</span>
-                        </div>
-                    </div>
-                    <div id="menu" class="nav_item menu-option">
-                        <div class="address_text">
-                            <span>Menu</span>
-                        </div>
-                        <div class="dropdown_div">
-                            <span class="material-icons dropdown_icon">arrow_drop_down</span>
-                        </div>
-                    </div>
-                </nav>
-                <div id="search_bar" class="search_bar">
-                    <div class="search_input">
-                        <input id="search_input" type="text" autocomplete="off" placeholder="Search...">
-                    </div>
-                    <div class="search_icon">
-                        <span id="search" class="material-icons">search</span>
-                    </div> 
-                </div>
-                <div id="light_mode" class="nav_item theme">
-                    <span class="material-symbols-outlined" style="font-size: 18px;">contrast</span>
-                </div>
-                <div id="dark_mode" class="nav_item theme" style="display: none;">
-                    <span class="material-symbols-outlined" style="font-size: 18px;">contrast</span>
-                </div>
+  <div id="top-nav-fixed">
+    <div id="top_nav" class="topnav">
+      <div id="left-col" class="topcol">
+        <a href="https://www.w3schools.com/" id="top-nav-logo" title="Home">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/W3Schools_logo.svg" alt="W3Schools_logo"
+            style="width: 40px; margin-left: 10px; margin-top: 5px;">
+        </a>
+        <nav style="padding: 0px 10px;">
+          <div id="tutorials" class="nav_item menu-option">
+            <div class="address_text">
+              <span>Tutorials</span>
             </div>
-            <div id="right-col" class="topcol">
-                <div id="jobs" class="nav_item offers">
-                    <div class="dropdown_div">
-                        <span class="material-symbols-outlined" style="color: blueviolet; font-size: 18px; margin-right: 5px;">business_center</span>
-                    </div>
-                    <div class="address_text">
-                        Jobs
-                    </div>
-                </div>
-                <div id="spaces" class="nav_item offers">
-                    <div class="dropdown_div">
-                        <span class="material-symbols-outlined" style="color: blueviolet; font-size: 18px; margin-right: 5px;">code_blocks</span>
-                    </div>
-                    <div class="address_text">
-                        Spaces
-                    </div>
-                </div>
-                <div id="get-certified" class="nav_item offers">
-                    <div class="dropdown_div">
-                        <span class="material-symbols-outlined" style="color: blueviolet; font-size: 18px; margin-right: 5px;">shopping_cart</span>
-                    </div>
-                    <div class="address_text">
-                        Get Certified
-                    </div>
-                </div>
-                <div class="nav_item log-container">
-                    <div id="sign_up" class="address_text">
-                        <span>Sign Up</span>
-                    </div>
-                    <div id="log_in" class="address_text">
-                        Log In
-                    </div>
-                </div>
+            <div class="dropdown_div">
+              <span class="material-icons dropdown_icon">arrow_drop_down</span>
             </div>
+          </div>
+          <div id="exercises" class="nav_item menu-option">
+            <div class="address_text">
+              <span>Exercises</span>
+            </div>
+            <div class="dropdown_div">
+              <span class="material-icons dropdown_icon">arrow_drop_down</span>
+            </div>
+          </div>
+          <div id="certificates" class="nav_item menu-option">
+            <div class="address_text">
+              <span>Certificates</span>
+            </div>
+            <div class="dropdown_div">
+              <span class="material-icons dropdown_icon">arrow_drop_down</span>
+            </div>
+          </div>
+          <div id="services" class="nav_item menu-option">
+            <div class="address_text">
+              <span>Services</span>
+            </div>
+            <div class="dropdown_div">
+              <span class="material-icons dropdown_icon">arrow_drop_down</span>
+            </div>
+          </div>
+          <div id="menu" class="nav_item menu-option">
+            <div class="address_text">
+              <span>Menu</span>
+            </div>
+            <div class="dropdown_div">
+              <span class="material-icons dropdown_icon">arrow_drop_down</span>
+            </div>
+          </div>
+        </nav>
+        <div id="search_bar" class="search_bar">
+          <div class="search_input">
+            <input id="search_input" type="text" autocomplete="off" placeholder="Search...">
+          </div>
+          <div class="search_icon">
+            <span id="search" class="material-icons">search</span>
+          </div>
         </div>
+        <div id="light_mode" class="nav_item theme">
+          <span class="material-symbols-outlined" style="font-size: 18px;">contrast</span>
+        </div>
+        <div id="dark_mode" class="nav_item theme" style="display: none;">
+          <span class="material-symbols-outlined" style="font-size: 18px;">contrast</span>
+        </div>
+      </div>
+      <div id="right-col" class="topcol">
+        <div id="jobs" class="nav_item offers">
+          <div class="dropdown_div">
+            <span class="material-symbols-outlined"
+              style="color: blueviolet; font-size: 18px; margin-right: 5px;">business_center</span>
+          </div>
+          <div class="address_text">
+            Jobs
+          </div>
+        </div>
+        <div id="spaces" class="nav_item offers">
+          <div class="dropdown_div">
+            <span class="material-symbols-outlined"
+              style="color: blueviolet; font-size: 18px; margin-right: 5px;">code_blocks</span>
+          </div>
+          <div class="address_text">
+            Spaces
+          </div>
+        </div>
+        <div id="get-certified" class="nav_item offers">
+          <div class="dropdown_div">
+            <span class="material-symbols-outlined"
+              style="color: blueviolet; font-size: 18px; margin-right: 5px;">shopping_cart</span>
+          </div>
+          <div class="address_text">
+            Get Certified
+          </div>
+        </div>
+        <div class="nav_item log-container">
+          <div id="sign_up" class="address_text">
+            <span>Sign Up</span>
+          </div>
+          <div id="log_in" class="address_text">
+            Log In
+          </div>
+        </div>
+      </div>
     </div>
-    <div id="sub-nav-fixed">
-        <div id="subtopnav" class="subtopnav">
-        <button id="navbefore" style="border: none; display: none;">
-            <span style="color: white;" class="material-symbols-outlined">navigate_before</span>
-        </button>
-        <div id="suboptions" class="suboptions">
-            <a href="#">HTML</a>
-            <a href="#">CSS</a>
-            <a href="#">JAVASCRIPT</a>
-            <a href="#">SQL</a>
-            <a href="#">PYTHON</a>
-            <a href="#">JAVA</a>
-            <a href="#">PHP</a>
-            <a href="#">HOW TO</a>
-            <a href="#">W3.CSS</a>
-            <a href="#">C</a>
-            <a href="#">C++</a>
-            <a href="#">C#</a>
-            <a href="#">BOOTSTRAP</a>
-            <a href="#">REACT</a>
-            <a href="#">MYSQL</a>
-            <a href="#">JQUERY</a>
-            <a href="#">EXCEL</a>
-            <a href="#">XML</a>
-            <a href="#">DJANGO</a>
-            <a href="#">NODEJS</a>
-            <a href="#">R</a>
-            <a href="#">TYPESCRIPT</a>
-            <a href="#">ANGULAR</a>
-            <a href="#">GIT</a>
-            <a href="#">POSTGRESQL</a>
-            <a href="#">MONGODB</a>
-            <a href="#">ASP</a>
-            <a href="#">AWS</a>
-            <a href="#">AI</a>
-            <a href="#">GO</a>
-            <a href="#">KOTLIN</a>
-            <a href="#">SASS</a>
-            <a href="#">VUE</a>
-            <a href="#">GEN AI</a>
-            <a href="#">CYBERSECURITY</a>
-            <a href="#">DATA SCIENCE</a>
-        </div>
-        <button id="navafter" style="border: none;">
-            <span style="color: white;" class="material-symbols-outlined">navigate_next</span>
-        </button>
-        </div> 
-    </div> 
-    <div id="main-container">
-        <div id="left-section" class="dark-left">
-          <ul id="links-list">
-            <li class="left-options course">CSS Tutorial</li>
-            <li><a class="left-options" href="#">CSS Backgrounds</a></li>
-            <li><a class="left-options" href="#">CSS Borders</a></li>
-            <li><a class="left-options" href="#">CSS Margins</a></li>
-            <li><a class="left-options" href="#">CSS Padding</a></li>
-            <li><a class="left-options" href="#">CSS Height/Width</a></li>
-            <li><a class="left-options" href="#">CSS Box Model</a></li>
-            <li><a class="left-options" href="#">CSS Outline</a></li>
-            <li><a class="left-options" href="#">CSS Text</a></li>
-            <li><a class="left-options" href="#">CSS Fonts</a></li>
-            <li><a class="left-options" href="#">CSS Icons</a></li>
-            <li><a class="left-options" href="#">CSS Links</a></li>
-            <li><a class="left-options" href="#">CSS Lists</a></li>
-            <li><a class="left-options" href="#">CSS Tables</a></li>
-            <li><a class="left-options" href="#">CSS Display</a></li>
-            <li><a class="left-options" href="#">CSS Max-width</a></li>
-            <li><a class="left-options" href="#">CSS Position</a></li>
-            <li><a class="left-options" href="#">CSS Z-index</a></li>
-            <li><a class="left-options" href="#">CSS Overflow</a></li>
-            <li><a class="left-options" href="#">CSS Float</a></li>
-            <li><a class="left-options" href="#">CSS Inline-block</a></li>
-            <li><a class="left-options" href="#">CSS Align</a></li>
-            <li><a class="left-options" href="#">CSS Combinators</a></li>
-            <li><a class="left-options" href="#">CSS Pseudo-class</a></li>
-            <li><a class="left-options" href="#">CSS Pseudo-element</a></li>
-            <li><a class="left-options" href="#">CSS Opacity</a></li>
-            <li><a class="left-options" href="#">CSS Navigation Bar</a></li>
-            <li><a class="left-options" href="#">CSS Dropdowns</a></li>
-            <li><a class="left-options" href="#">CSS Image Gallery</a></li>
-            <li><a class="left-options" href="#">CSS Image Sprites</a></li>
-            <li><a class="left-options" href="#">CSS Attr Selectors</a></li>
-            <li><a class="left-options" href="#">CSS Forms</a></li>
-            <li><a class="left-options" href="#">CSS Counters</a></li>
-            <li><a class="left-options" href="#">CSS Website Layout</a></li>
-            <li><a class="left-options" href="#">CSS Units</a></li>
-            <li><a class="left-options" href="#">CSS Specificity</a></li>
-            <li><a class="left-options" href="#">CSS !important</a></li>
-            <li><a class="left-options" href="#">CSS Math Functions</a></li>
-            <li class="left-options course">CSS Advanced</li>
-            <li><a class="left-options" href="#">CSS Rounded Corners</a></li>
-            <li><a class="left-options" href="#">CSS Border Images</a></li>
-            <li><a class="left-options" href="#">CSS Backgrounds</a></li>
-            <li><a class="left-options" href="#">CSS Colors</a></li>
-            <li><a class="left-options" href="#">CSS Color Keywords</a></li>
-            <li><a class="left-options" href="#">CSS Gradients</a></li>
-            <li><a class="left-options" href="#">CSS Shadows</a></li>
-            <li><a class="left-options" href="#">CSS Text Effects</a></li>
-            <li><a class="left-options" href="#">CSS Web Fonts</a></li>
-            <li><a class="left-options" href="#">CSS 2D Transforms</a></li>
-            <li><a class="left-options" href="#">CSS 3D Transforms</a></li>
-            <li><a class="left-options" href="#">CSS Transitions</a></li>
-            <li><a class="left-options" href="#">CSS Animations</a></li>
-            <li><a class="left-options" href="#">CSS Tooltips</a></li>
-            <li><a class="left-options" href="#">CSS Style Images</a></li>
-            <li><a class="left-options" href="#">CSS Image Reflection</a></li>
-            <li><a class="left-options" href="#">CSS object-fit</a></li>
-            <li><a class="left-options" href="#">CSS object-position</a></li>
-            <li><a class="left-options" href="#">CSS Masking</a></li>
-            <li><a class="left-options" href="#">CSS Buttons</a></li>
-            <li><a class="left-options" href="#">CSS Pagination</a></li>
-            <li><a class="left-options" href="#">CSS Multiple Columns</a></li>
-            <li><a class="left-options" href="#">CSS User Interface</a></li>
-            <li><a class="left-options" href="#">CSS Variables</a></li>
-            <li><a class="left-options" href="#">CSS Box Sizing</a></li>
-            <li><a class="left-options" href="#">CSS Media Queries</a></li>
-            <li><a class="left-options" href="#">CSS MQ Examples</a></li>
-            <li><a class="left-options" href="#">CSS Flexbox</a></li>
-            <br>
-          </ul>
-        </div>
-        <main id="main">
-            <div id="center-div">
-                <header id="header">
-                    <h1>CSS Backgrounds</h1>
-                    <div id="header-desc">
-                      <button><span class="material-symbols-outlined arrow-left">arrow_left</span><span>Prev</span></button>
-                      <button onclick="nextPage()"><span>Next</span><span class="material-symbols-outlined arrow-right">arrow_right</span></button>
-                    </div>
-                    <p>The CSS background properties are used to add background effects for elements.</p>
-                </header>
-                <section id="main-section-1">
-                    <h2>CSS background-color</h2>
-                    <p>The <code class="code-text intext-dark">background-color</code> property specifies the background color of an element.</p>
-                    <div class="example-container">
-                      <h3>Example</h3>
-                      <p>The background color of a page is set like this:</p>
-                      <div class="code-container">
-                        <code>
+  </div>
+  <div id="sub-nav-fixed">
+    <div id="subtopnav" class="subtopnav">
+      <button id="navbefore" style="border: none; display: none;">
+        <span style="color: white;" class="material-symbols-outlined">navigate_before</span>
+      </button>
+      <div id="suboptions" class="suboptions">
+        <a href="#">HTML</a>
+        <a href="#">CSS</a>
+        <a href="#">JAVASCRIPT</a>
+        <a href="#">SQL</a>
+        <a href="#">PYTHON</a>
+        <a href="#">JAVA</a>
+        <a href="#">PHP</a>
+        <a href="#">HOW TO</a>
+        <a href="#">W3.CSS</a>
+        <a href="#">C</a>
+        <a href="#">C++</a>
+        <a href="#">C#</a>
+        <a href="#">BOOTSTRAP</a>
+        <a href="#">REACT</a>
+        <a href="#">MYSQL</a>
+        <a href="#">JQUERY</a>
+        <a href="#">EXCEL</a>
+        <a href="#">XML</a>
+        <a href="#">DJANGO</a>
+        <a href="#">NODEJS</a>
+        <a href="#">R</a>
+        <a href="#">TYPESCRIPT</a>
+        <a href="#">ANGULAR</a>
+        <a href="#">GIT</a>
+        <a href="#">POSTGRESQL</a>
+        <a href="#">MONGODB</a>
+        <a href="#">ASP</a>
+        <a href="#">AWS</a>
+        <a href="#">AI</a>
+        <a href="#">GO</a>
+        <a href="#">KOTLIN</a>
+        <a href="#">SASS</a>
+        <a href="#">VUE</a>
+        <a href="#">GEN AI</a>
+        <a href="#">CYBERSECURITY</a>
+        <a href="#">DATA SCIENCE</a>
+      </div>
+      <button id="navafter" style="border: none;">
+        <span style="color: white;" class="material-symbols-outlined">navigate_next</span>
+      </button>
+    </div>
+  </div>
+  <div id="main-container">
+    <div id="left-section" class="dark-left">
+      <ul id="links-list">
+        <li class="left-options course">CSS Tutorial</li>
+        <li><a class="left-options" href="#">CSS Backgrounds</a></li>
+        <li><a class="left-options" href="#">CSS Borders</a></li>
+        <li><a class="left-options" href="#">CSS Margins</a></li>
+        <li><a class="left-options" href="#">CSS Padding</a></li>
+        <li><a class="left-options" href="#">CSS Height/Width</a></li>
+        <li><a class="left-options" href="#">CSS Box Model</a></li>
+        <li><a class="left-options" href="#">CSS Outline</a></li>
+        <li><a class="left-options" href="#">CSS Text</a></li>
+        <li><a class="left-options" href="#">CSS Fonts</a></li>
+        <li><a class="left-options" href="#">CSS Icons</a></li>
+        <li><a class="left-options" href="#">CSS Links</a></li>
+        <li><a class="left-options" href="#">CSS Lists</a></li>
+        <li><a class="left-options" href="#">CSS Tables</a></li>
+        <li><a class="left-options" href="#">CSS Display</a></li>
+        <li><a class="left-options" href="#">CSS Max-width</a></li>
+        <li><a class="left-options" href="#">CSS Position</a></li>
+        <li><a class="left-options" href="#">CSS Z-index</a></li>
+        <li><a class="left-options" href="#">CSS Overflow</a></li>
+        <li><a class="left-options" href="#">CSS Float</a></li>
+        <li><a class="left-options" href="#">CSS Inline-block</a></li>
+        <li><a class="left-options" href="#">CSS Align</a></li>
+        <li><a class="left-options" href="#">CSS Combinators</a></li>
+        <li><a class="left-options" href="#">CSS Pseudo-class</a></li>
+        <li><a class="left-options" href="#">CSS Pseudo-element</a></li>
+        <li><a class="left-options" href="#">CSS Opacity</a></li>
+        <li><a class="left-options" href="#">CSS Navigation Bar</a></li>
+        <li><a class="left-options" href="#">CSS Dropdowns</a></li>
+        <li><a class="left-options" href="#">CSS Image Gallery</a></li>
+        <li><a class="left-options" href="#">CSS Image Sprites</a></li>
+        <li><a class="left-options" href="#">CSS Attr Selectors</a></li>
+        <li><a class="left-options" href="#">CSS Forms</a></li>
+        <li><a class="left-options" href="#">CSS Counters</a></li>
+        <li><a class="left-options" href="#">CSS Website Layout</a></li>
+        <li><a class="left-options" href="#">CSS Units</a></li>
+        <li><a class="left-options" href="#">CSS Specificity</a></li>
+        <li><a class="left-options" href="#">CSS !important</a></li>
+        <li><a class="left-options" href="#">CSS Math Functions</a></li>
+        <li class="left-options course">CSS Advanced</li>
+        <li><a class="left-options" href="#">CSS Rounded Corners</a></li>
+        <li><a class="left-options" href="#">CSS Border Images</a></li>
+        <li><a class="left-options" href="#">CSS Backgrounds</a></li>
+        <li><a class="left-options" href="#">CSS Colors</a></li>
+        <li><a class="left-options" href="#">CSS Color Keywords</a></li>
+        <li><a class="left-options" href="#">CSS Gradients</a></li>
+        <li><a class="left-options" href="#">CSS Shadows</a></li>
+        <li><a class="left-options" href="#">CSS Text Effects</a></li>
+        <li><a class="left-options" href="#">CSS Web Fonts</a></li>
+        <li><a class="left-options" href="#">CSS 2D Transforms</a></li>
+        <li><a class="left-options" href="#">CSS 3D Transforms</a></li>
+        <li><a class="left-options" href="#">CSS Transitions</a></li>
+        <li><a class="left-options" href="#">CSS Animations</a></li>
+        <li><a class="left-options" href="#">CSS Tooltips</a></li>
+        <li><a class="left-options" href="#">CSS Style Images</a></li>
+        <li><a class="left-options" href="#">CSS Image Reflection</a></li>
+        <li><a class="left-options" href="#">CSS object-fit</a></li>
+        <li><a class="left-options" href="#">CSS object-position</a></li>
+        <li><a class="left-options" href="#">CSS Masking</a></li>
+        <li><a class="left-options" href="#">CSS Buttons</a></li>
+        <li><a class="left-options" href="#">CSS Pagination</a></li>
+        <li><a class="left-options" href="#">CSS Multiple Columns</a></li>
+        <li><a class="left-options" href="#">CSS User Interface</a></li>
+        <li><a class="left-options" href="#">CSS Variables</a></li>
+        <li><a class="left-options" href="#">CSS Box Sizing</a></li>
+        <li><a class="left-options" href="#">CSS Media Queries</a></li>
+        <li><a class="left-options" href="#">CSS MQ Examples</a></li>
+        <li><a class="left-options" href="#">CSS Flexbox</a></li>
+        <br>
+      </ul>
+    </div>
+    <main id="main">
+      <div id="center-div">
+        <header id="header">
+          <h1>CSS Backgrounds</h1>
+          <div id="header-desc">
+            <button><span class="material-symbols-outlined arrow-left">arrow_left</span><span>Prev</span></button>
+            <button onclick="nextPage()"><span>Next</span><span
+                class="material-symbols-outlined arrow-right">arrow_right</span></button>
+          </div>
+          <p>The CSS background properties are used to add background effects for elements.</p>
+        </header>
+        <section id="main-section-1">
+          <h2>CSS background-color</h2>
+          <p>The <code class="code-text intext-dark">background-color</code> property specifies the background color of
+            an element.</p>
+          <div class="example-container">
+            <h3>Example</h3>
+            <p>The background color of a page is set like this:</p>
+            <div class="code-container">
+              <code>
                           <p>body {</p>
                           <p>&nbsp;&nbsp;background-color: lightblue;</p>
                           <p>}</p>
                         </code>
-                      </div>
-                    </div>
-                    <p>With CSS, a color is most often specified by:</p>
-                    <ul>
-                        <li>a valid color name - like "red"</li>
-                        <li>a HEX value - like "#ff0000"</li>
-                        <li>an RGB value - like "rgb(255, 0, 0)"</li>
-                    </ul>
-                    <p>Look at CSS Color Values for a complete list of possible color values.</p>
-                </section>
-                <section>
-                    <h2>Other Elements</h2>
-                    <p>You can set the background for any HTML elements:</p>
-                    <div class="example-container">
-                        <h3>Example</h3>
-                        <p>Here, the &lt;h1&gt;, &lt;p&gt;, and &lt;div&gt; elements will have different background colors:</p>
-                        <div class="code-container">
-                          <code>
+            </div>
+          </div>
+          <p>With CSS, a color is most often specified by:</p>
+          <ul>
+            <li>a valid color name - like "red"</li>
+            <li>a HEX value - like "#ff0000"</li>
+            <li>an RGB value - like "rgb(255, 0, 0)"</li>
+          </ul>
+          <p>Look at CSS Color Values for a complete list of possible color values.</p>
+        </section>
+        <section>
+          <h2>Other Elements</h2>
+          <p>You can set the background for any HTML elements:</p>
+          <div class="example-container">
+            <h3>Example</h3>
+            <p>Here, the &lt;h1&gt;, &lt;p&gt;, and &lt;div&gt; elements will have different background colors:</p>
+            <div class="code-container">
+              <code>
                             <p>h1 {</p>
                             <p>&nbsp;&nbsp;background-color: green;</p>
                             <p>}</p>
@@ -285,41 +296,45 @@
                             <p>&nbsp;&nbsp;background-color: yellow;</p>
                             <p>}</p>
                           </code>
-                        </div>
-                    </div>
-                </section>
-                <section>
-                    <h2>Opacity / Transparency</h2>
-                    <p>The <code class="code-text intext-dark">opacity</code> property specifies the opacity/transparency of an element. It can take a value from 0.0 - 1.0. The lower value, the more transparent:</p>
-                    <div id="opacity-example">
-                        <div style="background-color: rgba(0, 128, 0, 1.0);" class="opacity-container">opacity 1</div>
-                        <div style="background-color: rgba(0, 128, 0, 0.6);" class="opacity-container">opacity 0.6</div>
-                        <div style="background-color: rgba(0, 128, 0, 0.3);" class="opacity-container">opacity 0.3</div>
-                        <div style="background-color: rgba(0, 128, 0, 0.1);" class="opacity-container">opacity 0.1</div>
-                    </div>
-                </section>
             </div>
-            <aside id="right-section">
-                <div class="side-item">
-                    <div id="certification-side-item" onclick="redirectToHttps()">
-                        <img src="/icons/css-icon.svg" alt="css icon" style="width: 60px;">
-                        <div id="career">Ready for the next step in your career?</div>
-                        <div id="css-certified"><i class="italic-certified">Get</i> CSS <i class="italic-certified">Certified!</i></div>
-                        <div id="certified-button">Get Certified!</div>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/W3Schools_logo.svg" alt="W3Schools_logo" style="align-self: flex-end; width: 28px;">
-                    </div>
-                </div>
-                <div class="side-item">
-                    <div id="color-picker" onclick="redirectToHttps()">
-                        <img src="">
-                    </div>
-                </div>
-                <div class="side-item"></div>
-            </aside>
-        </main> 
-    </div>
+          </div>
+        </section>
+        <section>
+          <h2>Opacity / Transparency</h2>
+          <p>The <code class="code-text intext-dark">opacity</code> property specifies the opacity/transparency of an
+            element. It can take a value from 0.0 - 1.0. The lower value, the more transparent:</p>
+          <div id="opacity-example">
+            <div style="background-color: rgba(0, 128, 0, 1.0);" class="opacity-container">opacity 1</div>
+            <div style="background-color: rgba(0, 128, 0, 0.6);" class="opacity-container">opacity 0.6</div>
+            <div style="background-color: rgba(0, 128, 0, 0.3);" class="opacity-container">opacity 0.3</div>
+            <div style="background-color: rgba(0, 128, 0, 0.1);" class="opacity-container">opacity 0.1</div>
+          </div>
+        </section>
+      </div>
+      <aside id="right-section">
+        <div class="side-item">
+          <div id="certification-side-item" onclick="redirectToHttps()">
+            <img src="/icons/css-icon.svg" alt="css icon" style="width: 60px;">
+            <div id="career">Ready for the next step in your career?</div>
+            <div id="css-certified"><i class="italic-certified">Get</i> CSS <i class="italic-certified">Certified!</i>
+            </div>
+            <div id="certified-button">Get Certified!</div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/W3Schools_logo.svg" alt="W3Schools_logo"
+              style="align-self: flex-end; width: 28px;">
+          </div>
+        </div>
+        <div class="side-item">
+          <div id="color-picker" onclick="redirectToHttps()">
+            <img src="">
+          </div>
+        </div>
+        <div class="side-item"></div>
+      </aside>
+    </main>
+  </div>
 </body>
 <script src="topnav-behavior.js"></script>
 <script src="subnav-behavior.js"></script>
 <script src="main-behavior.js"></script>
+
 </html>

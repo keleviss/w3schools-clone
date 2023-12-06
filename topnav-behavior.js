@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // let codeContainer = document.querySelectorAll('.code-container');
 
   // Event listener for changing the theme to dark
-  darkMode.addEventListener("click", function() {
+  darkMode.addEventListener("click", function () {
     // Body colors
     document.body.style.color = "#f1f1f1";
     document.body.style.backgroundColor = "#1d2a35";
@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // Event listener for changing the theme to white
-  lightMode.addEventListener("click", function() {
+  lightMode.addEventListener("click", function () {
     // Body colors
     document.body.style.color = "black";
     document.body.style.backgroundColor = "white";
@@ -85,37 +85,37 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Get every element with class 'menu-option'
   var menuOptions = document.querySelectorAll('.menu-option');
-  
+
   // For each element add event listener to change the text color to white
   // when user hovers the mouse on the element and the theme is light
-  menuOptions.forEach(option => {    
+  menuOptions.forEach(option => {
     option.addEventListener('mouseenter', () => {
-        if (document.body.style.color === 'black') {
-            option.style.color = 'white';
-        }
+      if (document.body.style.color === 'black') {
+        option.style.color = 'white';
+      }
     });
 
     // Return the text color back to normal themed color
     option.addEventListener('mouseleave', () => {
-        if (document.body.style.color === 'black') {
-            option.style.color = 'inherit';
-        }
+      if (document.body.style.color === 'black') {
+        option.style.color = 'inherit';
+      }
     });
   });
 
   // Get the search input element and it's container 
   const searchInput = document.getElementById('search_input');
-  const searchBar = document.getElementById('search_bar');    
+  const searchBar = document.getElementById('search_bar');
 
   // When the user selects the search input element to type
   // a query, the container is outlined with green color
   searchInput.addEventListener('focus', () => {
-      searchBar.style.outline = '3px #04AA6D solid';
+    searchBar.style.outline = '3px #04AA6D solid';
   });
 
   // When the user leaves the search input element to 
   // click something else, the container outline is gone
   searchInput.addEventListener('blur', () => {
-      searchBar.style.outline = 'none';
+    searchBar.style.outline = 'none';
   });
 });

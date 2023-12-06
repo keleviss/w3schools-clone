@@ -1,183 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Tutorial</title>
-    <link rel="stylesheet" href="navbars.css">
-    <!-- <link rel="stylesheet" href="main-page.css"> -->
-    <link rel="stylesheet" href="homepage.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Tutorial</title>
+  <link rel="stylesheet" href="navbars.css">
+  <!-- <link rel="stylesheet" href="main-page.css"> -->
+  <link rel="stylesheet" href="homepage.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
+
 <body>
-    <div id="top-nav-fixed">
-        <div id="top_nav" class="topnav">
-            <div id="left-col" class="topcol">
-                <a href="https://www.w3schools.com/" id="top-nav-logo" title="Home">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/W3Schools_logo.svg" alt="W3Schools_logo" style="width: 40px; margin-left: 10px; margin-top: 5px;">
-                </a>
-                <nav style="padding: 0px 10px;">
-                    <div id="tutorials" class="nav_item menu-option">
-                        <div class="address_text">
-                            <span>Tutorials</span>
-                        </div>
-                        <div class="dropdown_div">
-                            <span class="material-icons dropdown_icon">arrow_drop_down</span>
-                        </div>
-                    </div>
-                    <div id="exercises" class="nav_item menu-option">
-                        <div class="address_text">
-                            <span>Exercises</span>
-                        </div>
-                        <div class="dropdown_div">
-                            <span class="material-icons dropdown_icon">arrow_drop_down</span>
-                        </div>
-                    </div>
-                    <div id="certificates" class="nav_item menu-option">
-                        <div class="address_text">
-                            <span>Certificates</span>
-                        </div>
-                        <div class="dropdown_div">
-                            <span class="material-icons dropdown_icon">arrow_drop_down</span>
-                        </div>
-                    </div>
-                    <div id="services" class="nav_item menu-option">
-                        <div class="address_text">
-                            <span>Services</span>
-                        </div>
-                        <div class="dropdown_div">
-                            <span class="material-icons dropdown_icon">arrow_drop_down</span>
-                        </div>
-                    </div>
-                    <div id="menu" class="nav_item menu-option">
-                        <div class="address_text">
-                            <span>Menu</span>
-                        </div>
-                        <div class="dropdown_div">
-                            <span class="material-icons dropdown_icon">arrow_drop_down</span>
-                        </div>
-                    </div>
-                </nav>
-                <div id="search_bar" class="search_bar">
-                    <div class="search_input">
-                        <input id="search_input" type="text" autocomplete="off" placeholder="Search...">
-                    </div>
-                    <div class="search_icon">
-                        <span id="search" class="material-icons">search</span>
-                    </div> 
-                </div>
-                <div id="light_mode" class="nav_item theme">
-                    <span class="material-symbols-outlined" style="font-size: 18px;">contrast</span>
-                </div>
-                <div id="dark_mode" class="nav_item theme" style="display: none;">
-                    <span class="material-symbols-outlined" style="font-size: 18px;">contrast</span>
-                </div>
+  <div id="top-nav-fixed">
+    <div id="top_nav" class="topnav">
+      <div id="left-col" class="topcol">
+        <a href="https://www.w3schools.com/" id="top-nav-logo" title="Home">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/W3Schools_logo.svg" alt="W3Schools_logo"
+            style="width: 40px; margin-left: 10px; margin-top: 5px;">
+        </a>
+        <nav style="padding: 0px 10px;">
+          <div id="tutorials" class="nav_item menu-option">
+            <div class="address_text">
+              <span>Tutorials</span>
             </div>
-            <div id="right-col" class="topcol">
-                <div id="jobs" class="nav_item offers">
-                    <div class="dropdown_div">
-                        <span class="material-symbols-outlined" style="color: blueviolet; font-size: 18px; margin-right: 5px;">business_center</span>
-                    </div>
-                    <div class="address_text">
-                        Jobs
-                    </div>
-                </div>
-                <div id="spaces" class="nav_item offers">
-                    <div class="dropdown_div">
-                        <span class="material-symbols-outlined" style="color: blueviolet; font-size: 18px; margin-right: 5px;">code_blocks</span>
-                    </div>
-                    <div class="address_text">
-                        Spaces
-                    </div>
-                </div>
-                <div id="get-certified" class="nav_item offers">
-                    <div class="dropdown_div">
-                        <span class="material-symbols-outlined" style="color: blueviolet; font-size: 18px; margin-right: 5px;">shopping_cart</span>
-                    </div>
-                    <div class="address_text">
-                        Get Certified
-                    </div>
-                </div>
-                <div class="nav_item log-container">
-                    <div id="sign_up" class="address_text">
-                        <span>Sign Up</span>
-                    </div>
-                    <div id="log_in" class="address_text">
-                        Log In
-                    </div>
-                </div>
+            <div class="dropdown_div">
+              <span class="material-icons dropdown_icon">arrow_drop_down</span>
             </div>
+          </div>
+          <div id="exercises" class="nav_item menu-option">
+            <div class="address_text">
+              <span>Exercises</span>
+            </div>
+            <div class="dropdown_div">
+              <span class="material-icons dropdown_icon">arrow_drop_down</span>
+            </div>
+          </div>
+          <div id="certificates" class="nav_item menu-option">
+            <div class="address_text">
+              <span>Certificates</span>
+            </div>
+            <div class="dropdown_div">
+              <span class="material-icons dropdown_icon">arrow_drop_down</span>
+            </div>
+          </div>
+          <div id="services" class="nav_item menu-option">
+            <div class="address_text">
+              <span>Services</span>
+            </div>
+            <div class="dropdown_div">
+              <span class="material-icons dropdown_icon">arrow_drop_down</span>
+            </div>
+          </div>
+          <div id="menu" class="nav_item menu-option">
+            <div class="address_text">
+              <span>Menu</span>
+            </div>
+            <div class="dropdown_div">
+              <span class="material-icons dropdown_icon">arrow_drop_down</span>
+            </div>
+          </div>
+        </nav>
+        <div id="search_bar" class="search_bar">
+          <div class="search_input">
+            <input id="search_input" type="text" autocomplete="off" placeholder="Search...">
+          </div>
+          <div class="search_icon">
+            <span id="search" class="material-icons">search</span>
+          </div>
         </div>
-    </div>
-    <div id="sub-nav-fixed">
-        <div id="subtopnav" class="subtopnav">
-        <button id="navbefore" style="border: none; display: none;">
-            <span style="color: white;" class="material-symbols-outlined">navigate_before</span>
-        </button>
-        <div id="suboptions" class="suboptions">
-            <a href="#">HTML</a>
-            <a href="#">CSS</a>
-            <a href="#">JAVASCRIPT</a>
-            <a href="#">SQL</a>
-            <a href="#">PYTHON</a>
-            <a href="#">JAVA</a>
-            <a href="#">PHP</a>
-            <a href="#">HOW TO</a>
-            <a href="#">W3.CSS</a>
-            <a href="#">C</a>
-            <a href="#">C++</a>
-            <a href="#">C#</a>
-            <a href="#">BOOTSTRAP</a>
-            <a href="#">REACT</a>
-            <a href="#">MYSQL</a>
-            <a href="#">JQUERY</a>
-            <a href="#">EXCEL</a>
-            <a href="#">XML</a>
-            <a href="#">DJANGO</a>
-            <a href="#">NODEJS</a>
-            <a href="#">R</a>
-            <a href="#">TYPESCRIPT</a>
-            <a href="#">ANGULAR</a>
-            <a href="#">GIT</a>
-            <a href="#">POSTGRESQL</a>
-            <a href="#">MONGODB</a>
-            <a href="#">ASP</a>
-            <a href="#">AWS</a>
-            <a href="#">AI</a>
-            <a href="#">GO</a>
-            <a href="#">KOTLIN</a>
-            <a href="#">SASS</a>
-            <a href="#">VUE</a>
-            <a href="#">GEN AI</a>
-            <a href="#">CYBERSECURITY</a>
-            <a href="#">DATA SCIENCE</a>
+        <div id="light_mode" class="nav_item theme">
+          <span class="material-symbols-outlined" style="font-size: 18px;">contrast</span>
         </div>
-        <button id="navafter" style="border: none;">
-            <span style="color: white;" class="material-symbols-outlined">navigate_next</span>
-        </button>
-        </div> 
-    </div> 
-    <div id="main-container">
-        <main id="learn-to-code">
-            <h1 id="learntocodeh1">Learn to Code</h1>
-            <h3 id="learntocodeh3">With the world's largest web developer site.</h3>
-            <div id="learntocode-search">
-                <div id="search-text">
-                    <input type="text" placeholder="Search our tutorials, e.g. HTML">
-                </div>
-                <div id="search-btn">
-                    
-                </div>
-            </div>
-            <a href="#">Not Sure Where to Begin?</a>
-        </main> 
+        <div id="dark_mode" class="nav_item theme" style="display: none;">
+          <span class="material-symbols-outlined" style="font-size: 18px;">contrast</span>
+        </div>
+      </div>
+      <div id="right-col" class="topcol">
+        <div id="jobs" class="nav_item offers">
+          <div class="dropdown_div">
+            <span class="material-symbols-outlined"
+              style="color: blueviolet; font-size: 18px; margin-right: 5px;">business_center</span>
+          </div>
+          <div class="address_text">
+            Jobs
+          </div>
+        </div>
+        <div id="spaces" class="nav_item offers">
+          <div class="dropdown_div">
+            <span class="material-symbols-outlined"
+              style="color: blueviolet; font-size: 18px; margin-right: 5px;">code_blocks</span>
+          </div>
+          <div class="address_text">
+            Spaces
+          </div>
+        </div>
+        <div id="get-certified" class="nav_item offers">
+          <div class="dropdown_div">
+            <span class="material-symbols-outlined"
+              style="color: blueviolet; font-size: 18px; margin-right: 5px;">shopping_cart</span>
+          </div>
+          <div class="address_text">
+            Get Certified
+          </div>
+        </div>
+        <div class="nav_item log-container">
+          <div id="sign_up" class="address_text">
+            <span>Sign Up</span>
+          </div>
+          <div id="log_in" class="address_text">
+            Log In
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+  <div id="sub-nav-fixed">
+    <div id="subtopnav" class="subtopnav">
+      <button id="navbefore" style="border: none; display: none;">
+        <span style="color: white;" class="material-symbols-outlined">navigate_before</span>
+      </button>
+      <div id="suboptions" class="suboptions">
+        <a href="#">HTML</a>
+        <a href="#">CSS</a>
+        <a href="#">JAVASCRIPT</a>
+        <a href="#">SQL</a>
+        <a href="#">PYTHON</a>
+        <a href="#">JAVA</a>
+        <a href="#">PHP</a>
+        <a href="#">HOW TO</a>
+        <a href="#">W3.CSS</a>
+        <a href="#">C</a>
+        <a href="#">C++</a>
+        <a href="#">C#</a>
+        <a href="#">BOOTSTRAP</a>
+        <a href="#">REACT</a>
+        <a href="#">MYSQL</a>
+        <a href="#">JQUERY</a>
+        <a href="#">EXCEL</a>
+        <a href="#">XML</a>
+        <a href="#">DJANGO</a>
+        <a href="#">NODEJS</a>
+        <a href="#">R</a>
+        <a href="#">TYPESCRIPT</a>
+        <a href="#">ANGULAR</a>
+        <a href="#">GIT</a>
+        <a href="#">POSTGRESQL</a>
+        <a href="#">MONGODB</a>
+        <a href="#">ASP</a>
+        <a href="#">AWS</a>
+        <a href="#">AI</a>
+        <a href="#">GO</a>
+        <a href="#">KOTLIN</a>
+        <a href="#">SASS</a>
+        <a href="#">VUE</a>
+        <a href="#">GEN AI</a>
+        <a href="#">CYBERSECURITY</a>
+        <a href="#">DATA SCIENCE</a>
+      </div>
+      <button id="navafter" style="border: none;">
+        <span style="color: white;" class="material-symbols-outlined">navigate_next</span>
+      </button>
+    </div>
+  </div>
+  <div id="main-container">
+    <section id="learntocode-section" class="full-width-div">
+      <div>
+        <h1 id="learntocodeh1">Learn to Code</h1>
+        <h3 id="learntocodeh3">With the world's largest web developer site.</h3>
+        <div id="learntocode-search">
+          <div id="search-text">
+            <input type="text" placeholder="Search our tutorials, e.g. HTML">
+          </div>
+          <div id="search-btn">
+
+          </div>
+        </div>
+        <a href="#">Not Sure Where to Begin?</a>
+      </div>
+    </section>
+  </div>
 </body>
 <script src="topnav-behavior.js"></script>
 <script src="subnav-behavior.js"></script>
 <script src="main-behavior.js"></script>
+
 </html>

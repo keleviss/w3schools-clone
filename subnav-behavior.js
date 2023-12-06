@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // Activate the right side button after scrollin to the left
       navAfter.style.display = 'flex';
- 
+
       if (scrollAmount <= 0) {
         scrolling = false;
         navBefore.style.display = 'none';
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // clearInterval(intervalId);
   });
 
-  navBefore.addEventListener('mouseleave', () =>{
+  navBefore.addEventListener('mouseleave', () => {
     scolling = false;
     // clearInterval(intervalId);
   });
