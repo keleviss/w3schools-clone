@@ -9,6 +9,60 @@
     top: 85px;
     left: 0;
     height: 500px;
+    min-width: 300px;
     background-color: #282A35;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+#learntocodeh1 {
+    font-size: 70px;
+    margin: 0;
+}
+
+#learntocodeh3 {
+    font-size: 23px;
+    margin-top: 15px!important;
+    color: #FFF4A3;
+}
+
+#learntocode-search {
+    display: flex;
+    width: 55%;
+    min-width: 300px;
+    height: 50px;
+}
+
+#search-text {
+    width: 80%;
+    min-width: 150px;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px 0px 0px 30px;
+    background-color: white;
+}
+
+#search-text > input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-weight: 600;
+    font-size: 18px;
+    font-style: normal;
+    font-family: inherit;
+}
+
+#search-btn {
+    width: 20%;
+    min-width: 70px;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 0px 30px 30px 0px;
+    background-color: #04AA6D;
+}
