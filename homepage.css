@@ -13,6 +13,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url('/icons/lynx_in_space.png'), url('/icons/background_in_space.jpeg');
+  background-repeat: no-repeat, repeat;
+  background-position: 90% 60%, center center;
+}
+
+@media (max-width: 1000px) {
+  #learntocode-section {
+    background-image: url('/icons/background_in_space.jpeg');
+    background-repeat: repeat;
+    background-position: center;
+  }
 }
 
 .center-div {
@@ -49,12 +60,12 @@
 
   #learntocodeh1 {
     font-size: 60px;
-    word-wrap: normal;
+    text-wrap: auto;
   }
 
   #learntocodeh3 {
-    font-size: 16px;
-    word-wrap: normal;
+    font-size: 20px;
+    text-wrap: auto;
   }
 }
 
@@ -63,6 +74,7 @@
   min-width: 150px;
   height: 100%;
   padding: 10px;
+  padding-left: 20px;
   display: flex;
   align-items: center;
   border-radius: 30px 0px 0px 30px;
@@ -89,3 +101,36 @@
   border-radius: 0px 30px 30px 0px;
   background-color: #04AA6D;
 }
+
+#search-icon {
+    margin: auto;
+    user-select: none;
+}
+
+#search-btn:hover {
+  cursor: pointer;
+  background-color: #2b8050;
+}
+
+#not-sure {
+  color: #f1f1f1;
+  font-size: 23px;
+  font-weight: 600;
+  margin-top: 23px;
+}
+
+#not-sure:hover {
+  color: #FFF4A3;
+}
+
+#space-curve {
+  background-image: url('icons/space-curve.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 150px;
+  background-color: #D9EEE1;
+}
+
+/* I need to fix the background of the curve */
+/* Or try the way that W3Schools did it */
