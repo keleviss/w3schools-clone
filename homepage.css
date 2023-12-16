@@ -4,17 +4,25 @@
   z-index: 1;
 }
 
-#learn-to-code {
+#learntocode-section {
   position: relative;
   top: 85px;
   left: 0;
   height: 500px;
-  min-width: 300px;
   background-color: #282A35;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  text-wrap: balance;
+  width: 100%;
 }
 
 #learntocodeh1 {
@@ -30,9 +38,24 @@
 
 #learntocode-search {
   display: flex;
-  width: 55%;
-  min-width: 300px;
+  width: 500px;
   height: 50px;
+}
+
+@media (max-width: 550px) {
+  #learntocode-search {
+    width: 85%;
+  }
+
+  #learntocodeh1 {
+    font-size: 60px;
+    word-wrap: normal;
+  }
+
+  #learntocodeh3 {
+    font-size: 16px;
+    word-wrap: normal;
+  }
 }
 
 #search-text {
